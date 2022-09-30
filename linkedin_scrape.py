@@ -134,13 +134,9 @@ def main():
 
     driver = webdriver.Chrome(options=chrome_options)
 
-    # Account 1, constantly gets flagged for being a bot
-    #username = 'testymctestmanface@gmail.com'
-    #password = 'testing123#'
-
-    # Account 2
-    username = 'testingmctestman@gmail.com'
-    password = 'test123#'
+    # Account Details
+    username = # Input LinkedIn username
+    password = # Input LinkedIn password
 
     scrape_from_csv(username, password, single_scrape_selenium, 'people.csv', 'new_people.csv', driver)
 
